@@ -1,0 +1,297 @@
+body{
+  font-family: 'Roboto Slab', serif;
+
+}
+
+.main-head{
+  height: 700px;
+  background-image: url(../images/header-bg.jpg);
+  background-size: cover;
+}
+.navbar{
+  background-color: black;
+}
+.navbar .nav-item .nav-link{
+  color:#fff;
+  font-size: 14px;
+  padding-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.navbar .nav-item .nav-link:hover{
+  color: #fed136 ;
+
+}
+
+.navbar .navbar-brand{
+  color: #fed136 ;
+  font-size: 28px;
+  font-family: 'Kaushan Script', cursive;
+
+}
+.navbar .navbar-brand:hover{
+  color: white !important;
+}
+
+.caption p{
+  font-size: 40px;
+
+}
+
+.caption h1{
+  font-size: 75px;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+}
+.caption a{
+  background-color: #fed136;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.advisors{
+  font-family: 'Poppins', sans-serif;
+
+  
+}
+
+.advisors h3{
+  color: #002147;
+  font-weight: 900;
+}
+
+advisors p{
+  color: #6c757d;
+}
+.advisor{
+  position: relative;
+  overflow: hidden;
+ 
+}
+
+
+.advisor .advisor-overlay{
+  background-color: rgba(0, 33, 71, 0.7);
+  position: absolute;
+  height: 92%;
+  left:15px;
+  right:15px;
+  bottom:100%;
+  transition: all 1s;
+
+}
+
+.advisor .advisor-overlay a{
+color: #fed136;
+}
+
+.advisor:hover .advisor-overlay{
+  bottom:15px;
+}
+
+.advisor:hover .advisor-info{
+  bottom:-100%;
+ 
+}
+
+
+.advisor .advisor-info{
+  background-color:white;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right:15px;
+  transition: all 1s 0.4s;
+}
+
+.advisor .advisor-info h4{
+  color:#002147;
+}
+
+.advisor .advisor-info span{
+  color: #fed136;
+}
+
+.categories{
+  background-color: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
+
+}
+.categories h2{
+  font-size: 30px;
+  font-weight: 700;
+  color:#002147;
+}
+
+.categories p{
+  font-size: 14px;
+}
+.category-1{
+  background-image: url(../images/1.jpg);
+  background-size: cover;
+}
+.category-1 .category-overlay{
+  background-color: #337ab7;
+  transition: all 1s;
+}
+
+.category-1 .category-overlay:hover{
+  background-color: rgba(51, 122, 180, 0.58);
+  }
+
+.category-2{
+  background-image: url(../images/2.jpg);
+  background-size: cover;
+}
+.category-2 .category-overlay{
+  background-color: #1ec1d9;
+  transition: all 1s;
+}
+
+.category-2 .category-overlay:hover{
+  background-color: rgba(30, 193, 217, 0.51);
+  }
+
+.category-3{
+  background-image: url(../images/3.jpg);
+  background-size: cover;
+}
+.category-3 .category-overlay{
+  background-color: #10c45c;
+  transition: all 1s;
+}
+.category-3 .category-overlay:hover{
+  background-color: rgba(94, 212, 140, 0.58);
+  }
+
+.category-4{
+  background-image: url(../images/4.jpg);
+  background-size: cover;
+}
+.category-4 .category-overlay{
+  background-color: #47c58e;
+  transition: all 1s;
+}
+
+.category-4 .category-overlay:hover{
+  background-color: rgba(22, 90, 4, 0.58);
+  }
+
+.category-5{
+  background-image: url(../images/5.jpg);
+  background-size: cover;
+}
+.category-5 .category-overlay{
+  background-color: #f9bd44;
+  transition: all 1s;
+}
+
+.category-5 .category-overlay:hover{
+  background-color: rgba(224, 210, 11, 0.58);
+  }
+
+.category-6{
+  background-image: url(../images/6.jpg);
+  background-size: cover;
+}
+.category-6 .category-overlay{
+  background-color: #e948ae;
+  transition: all 1s;
+}
+
+.category-6 .category-overlay:hover{
+  background-color: rgba(243, 4, 183, 0.58);
+  }
+
+.category-7{
+  background-image: url(../images/7.jpg);
+  background-size: cover;
+}
+.category-7 .category-overlay{
+  background-color: #e84b3a;
+  transition: all 1s;
+}
+
+.category-7 .category-overlay:hover{
+  background-color: rgba(233, 8, 8, 0.58);
+  }
+
+.category-8{
+  background-image: url(../images/8.jpg);
+  background-size: cover;
+}
+.category-8 .category-overlay{
+  background-color: #92278f;
+  transition:all 1s;
+}
+.category-8 .category-overlay:hover{
+  background-color: rgba(143, 24, 117, 0.507);
+  }
+
+.projects{
+  background-color: #f9f9f9;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.projects .project-caption{
+  background-color: #fff;
+
+}
+.project-img{
+  position: relative;
+
+}
+
+.project-img .project-overlay{
+  background-color: rgba(254,209,54,0.9);
+  position: absolute;
+  top:0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 1s;
+
+}
+
+.project-img .project-overlay:hover{
+  opacity: 1;
+}
+
+.contact-us{
+ 
+  background-color:#212529 ;
+  background-image: url(../images/map-image.png);
+  background-size: cover;
+}
+
+.contact-us h2{
+  font-family:  'Montserrat', sans-serif;
+  
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+  .navbar{
+    background-color: #212529; 
+  }
+  .navbar-toggler{
+    background-color: #fed136 !important;
+    color: #fff !important;
+    font-size: 16px;
+  }
+  /* change the navbar-toggler-icon color by changing the svg data image  */
+ .navbar-light .navbar-toggler-icon { 
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+}
+
